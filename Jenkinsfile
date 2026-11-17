@@ -107,7 +107,7 @@ pipeline {
 
                     for i in 1 2 3 4 5 6 7 8 9 10
                     do
-                        if curl -fsS http://localhost:8081 > /dev/null
+                        if curl -fsS http://localhost:9999 > /dev/null
                         then
                             HEALTHY=true
                             echo "SUCCESS: Production application is healthy"
